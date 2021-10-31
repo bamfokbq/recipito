@@ -39,7 +39,7 @@ const RecipeCard = ({ recipe }) => {
           left: -10px;
         }
         .info {
-          padding: 12px;
+          padding: 10px;
         }
         .info h4 {
           margin: 4px 0;
@@ -57,7 +57,7 @@ const RecipeCard = ({ recipe }) => {
         .actions a {
           color: #fff;
           background: #a62f03;
-          padding: 16px 24px;
+          padding: 10px 16px;
           text-decoration: none;
         }
       `}</style>
