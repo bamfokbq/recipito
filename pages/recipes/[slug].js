@@ -21,6 +21,7 @@ export default function RecipeDetails({ recipe }) {
           src={'https:' + featuredImage.fields.file.url}
           width={featuredImage.fields.file.details.image.width}
           height={featuredImage.fields.file.details.image.height}
+          alt={title}
         />
         <h2>{title}</h2>
       </div>
